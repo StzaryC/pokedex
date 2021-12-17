@@ -1,9 +1,9 @@
 # pokedex
 pokedex
 
-En este repositorio estan contenidos los archivos necesarios para la ejecucion de la App.
+En este repositorio estan contenidos los archivos necesarios para la ejecucion de la App. 
 
-La aplicación se encuentra desplegada en githubpages con el link 
+La aplicación se encuentra desplegada en githubpages con el link: https://stzaryc.github.io/pokedex/ 
 Con esta aplicación puedes buscar los datos relavantes de algun pokémon.
 
 
