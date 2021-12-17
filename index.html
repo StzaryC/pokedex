@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokedex || Cura Deuda</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="images/pokeball_logo-png.png" alt="" height="60px">
+            <h1>Pokedex</h1>
+        </div>
+        <div id="bars" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="menu" class="menu">
+            <a href="https://pokeapi.co/" target="_blank">Informacion de la API</a>
+            <a href="https://pokeapi.co/about" target="_blank">Acerca de</a>
+            <a href="https://pokeapi.co/docs/v2" target="_blank">Version2</a>
+        </div>
+    </nav>
+
+    <div class="busqueda">
+        <input type="text" placeholder="id o nombre del Pokemon" id="filtro">
+        <button onclick="api_data()" id="btn_buscar">Bucar Datos</button>
+    </div>
+
+    <div class="pokedex">
+        <div class="results">
+            <h1>Aun no hay resultados</h1>
+            <!-- <div id=pkm >
+                <img src=${data.sprites.front_default}>
+            </div>
+            <div id=pkm_info>
+                
+                <h4 id="nombre">${data.name}<h4>
+                <h4 id="id">#${data.id}</h4>
+                <h4 id="altura">Altura: ${data.height} ft</h4>
+                <h4 id="peso">Peso: ${data.weight} Kg</h4>
+            </div> -->
+        </div>
+    </div>
+
+    
+
+
+    <footer>
+        <h1>
+            Desarrollado por Gustavo Morales <br>
+        </h1>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

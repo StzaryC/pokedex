@@ -1,0 +1,206 @@
+body
+    background-image: url("../images/pkm_bg.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    margin: 0px
+    height: 100vh
+    min-width: 350px
+    nav
+        background: #000
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0px 0px
+        position: relative
+        #logo
+            display: flex
+            align-items: center
+            color: #ccca4f
+            padding: 0px 40px
+            h1
+                margin-left: 20px
+        #bars
+            // // border: 1px solid #000
+            // height: 40px
+            // width: 40px
+            // display: flex
+            // justify-content: space-around
+            // flex-direction: column
+            // transition: right .4s
+            display: none
+            span
+                display: block
+                height: 3px
+                width: 30px
+                background-color: #fff
+                z-index: 1
+        .menu
+            // border: 1px solid #fff
+            background: #000
+            width: 50%
+            display: flex
+            align-items: center
+            justify-content: space-between 
+            a
+                height: 40px
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                color: #ccca4f
+                text-decoration: none
+                &:hover
+                    cursor: pointer
+                    background: #fff4
+    .busqueda
+        display: flex
+        align-items: center
+        justify-content: space-around
+        background: #923939
+        height: 10vh
+        input
+            height: 30px
+            width: 60%
+            padding: 0px 10px
+        button
+            height: 40px
+            width: 30%
+            padding: 10px 10px
+            background: #2dbad3
+            color: #fff
+            border: none
+            border-radius: 10px
+    .pokedex
+        background: #0003
+        color: #fff8
+        height: auto
+        .results
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            #pkm
+                img
+                    height: 300px
+            #pkm_info
+                font-size: 30px
+    footer
+        background: #0003
+        text-align: center
+        color: #fff5
+        position: fixed
+        bottom: 0px
+        width: 100%
+        h1
+            font-size: 15px
+    .togle
+        left: 0%
+        transition: .4s
+    
+@media (max-width: 760px)   
+    body
+        background-image: url("../images/pkm_bg.jpg")
+        background-size: cover
+        background-repeat: no-repeat
+        margin: 0px
+        height: 100vh
+        min-width: 350px
+        nav
+            background: #000
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 0px 0px
+            position: relative
+            #logo
+                display: flex
+                align-items: center
+                color: #ccca4f
+                padding: 0px 40px
+                h1
+                    margin-left: 20px
+            #bars
+                // border: 1px solid #000
+                height: 40px
+                width: 40px
+                display: flex
+                justify-content: space-around
+                flex-direction: column
+                transition: right .4s
+                span
+                    display: block
+                    height: 3px
+                    width: 30px
+                    background-color: #fff
+                    z-index: 1
+            .menu
+                // border: 1px solid #fff
+                position: absolute
+                top: 67px
+                right: 100%
+                background: #000
+                width: 100%
+                display: flex
+                flex-direction: column
+                align-items: center
+                
+                
+                a
+                    height: 40px
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    color: #ccca4f
+                    &:hover
+                        cursor: pointer
+                        background: #fff4
+        .busqueda
+            display: flex
+            align-items: center
+            justify-content: space-around
+            background: #923939
+            height: 10vh
+            input
+                height: 30px
+                padding: 0px 10px
+                width: 50%
+            button
+                height: 30px
+                padding: 0px 10px
+                background: #2dbad3
+                color: #fff
+                border: none
+                border-radius: 10px
+        .pokedex
+            background: #0003
+            color: #fff8
+            height: auto
+            .results
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-direction: column
+                #pkm
+                    img
+                        height: 200px
+                #pkm_info
+                    font-size: 15px
+        footer
+            background: #0003
+            text-align: center
+            color: #fff5
+            position: fixed
+            bottom: 0px
+            width: 100%
+            h1
+                font-size: 15px
+
+
+        .togle
+            left: 0%
+            transition: .4s
+
+
+
+            
